@@ -1,0 +1,44 @@
+/* Set the background color */
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures proper flexbox centering */
+}
+
+/* Flexbox to center the content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the container */
+div {
+    text-align: center;
+    max-width: 90%; /* Ensure the content doesn't overflow */
+    max-height: 90%; /* Keep the content within viewport height */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Responsive image */
+img {
+    max-width: 100%; /* Scale image to fit container width */
+    max-height: 80vh; /* Scale image to fit within viewport height */
+    border: 8px solid wheat;
+    object-fit: contain;
+}
+
+/* Style for heading */
+h1 {
+    font-family: "Bona Nova SC", serif;
+    color: wheat;
+    margin: 10px 0;
+}
+
+/* Style for paragraph */
+p {
+    color: wheat;
+    margin: 10px 0;
+}
